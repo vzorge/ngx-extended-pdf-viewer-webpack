@@ -1,0 +1,63 @@
+{
+    "name": "ngx-viewer-mockup",
+    "version": "9.9.9",
+    "dependencies": {
+        "@angular/common": "10.1.0",
+        "@angular/compiler": "10.1.0",
+        "@angular/core": "10.1.0",
+        "@angular/platform-browser": "10.1.0",
+        "@angular/platform-browser-dynamic": "10.1.0",
+        "@angular/upgrade": "^10.1.0",
+        "angular": "1.5.11",
+        "angular-resource": "1.5.11",
+        "angular-route": "1.5.11",
+        "angular-sanitize": "1.5.11",
+        "core-js": "2.6.10",
+        "fs": "0.0.1-security",
+        "jquery": "3.4.1",
+        "ngx-extended-pdf-viewer": "9.0.1",
+        "zone.js": "^0.10.3"
+    },
+    "devDependencies": {
+        "@types/angular": "1.7.3",
+        "@types/core-js": "2.5.3",
+        "@types/jasmine": "3.5.14",
+        "@types/jasminewd2": "2.0.8",
+        "@types/mailparser": "2.7.3",
+        "@types/node": "14.6.4",
+        "@types/webpack": "4.4.27",
+        "copy-webpack-plugin": "5.0.3",
+        "css-loader": "2.1.1",
+        "file-loader": "^3.0.1",
+        "hard-source-webpack-plugin": "^0.13.1",
+        "html-loader": "0.5.5",
+        "html-webpack-plugin": "3.2.0",
+        "npm-force-resolutions": "0.0.10",
+        "speed-measure-webpack-plugin": "^1.4.2",
+        "style-loader": "0.23.1",
+        "to-string-loader": "1.1.5",
+        "tslint": "5.16.0",
+        "ts-loader": "^8.0.17",
+        "typescript": "3.9.4",
+        "uglifyjs-webpack-plugin": "2.1.2",
+        "webpack": "^4.43.0",
+        "webpack-cli": "3.3.2",
+        "webpack-dev-server": "^3.11.2",
+        "webpack-merge": "4.2.1",
+        "webpack-war-plugin": "^1.0.0-beta.3"
+    },
+    "engines": {
+        "node": ">=0.8.0"
+    },
+    "scripts": {
+        "serve": "webpack-dev-server --config webpack.dev.js",
+        "preinstall": "npx npm-force-resolutions"
+    },
+    "browserslist": [
+        "Firefox >= 70",
+        "Chrome >= 70"
+    ],
+    "resolutions": {
+        "acorn": "8.0.1"
+    }
+}
